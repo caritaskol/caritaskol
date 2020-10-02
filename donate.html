@@ -213,7 +213,7 @@
       </div>
     </section>
 
-     <section class="ftco-section-3 img" style="background-image: url(images/Caritas/caritas%20full.png);">
+    <section class="ftco-section-3 img" style="background-image: url(images/Caritas/caritas%20full.png);">
     	<div class="overlay"></div>
     	<div class="container">
     		<div class="row d-md-flex">
@@ -222,20 +222,48 @@
     		</div>
     		<div class="col-md-6 volunteer pl-md-5 ftco-animate">
     			<h3 class="mb-3">Be a volunteer</h3>
-    			<form action="#" class="volunter-form">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Email">
-            </div>
-            <div class="form-group">
-              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
-            </div>
-            <div class="form-group">
+    			<form name="volunteer-basic" class="volunter-form" method="POST" data-netlify="true">
+ <div class="form-group">
+  <p>
+    <label><textarea  id="" cols="30" rows="1" type="text" class="form-control" name="name"  placeholder="Your Name:" ></textarea></label>   
+  </p>
+</div>
+<div class="form-group">                    
+<p>
+    <label><textarea  id="" cols="30" rows="1" type="email"class="form-control" name="email"  placeholder="Your Email"></textarea></label>
+</p>
+</div>
+<div class="form-group">                     
+<p>
+    <label> <input list="Departments" name="Departments" multiple class="form-control" name="Department"  placeholder="Department:" size="30">
+    <datalist id="Departments" >
+      <option >Marketing & Social Media</option>
+      <option >Reports &  Blogs</option>
+      <option >Finance & Equipment Control</option>
+      <option >Tech@Caritas</option>
+      <option >Dezyne@Caritas</option>
+      <option >Outreach</option>
+    </datalist></label>
+  </p>
+</div> 
+<div class="form-group">                   
+  <p>
+    <label><textarea  id="" cols="30" rows="2" type="text" class="form-control" name="Experience" placeholder="Please state any experience in the selected departments: "></textarea></label>
+  </p>
+</div>
+<div class="form-group">                    
+<p>
+    <label><textarea  id="" cols="30" rows="4" type="text" class="form-control" name="Values" placeholder="Apart from the fields displayed above what other values do you think you can add to the organization:"></textarea></label>
+</p> 
+</div> 
+<div class="form-group">                    
+<p>
+    <label><textarea  id="" cols="30" rows="1" type="text" class="form-control" name="Why" placeholder="Why do you want to join Caritas?:"></textarea></label>
+  </p>                      
+  <div class="form-group">
               <input type="submit" value="Send Message" class="btn btn-white py-3 px-5">
             </div>
-          </form>
+</form>
     		</div>    			
     		</div>
     	</div>
