@@ -9162,3 +9162,9 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+@media only screen and (max-width: 700px)
+.hero-wrap background-image {
+    height: auto;
+    width: 70px;
+}
