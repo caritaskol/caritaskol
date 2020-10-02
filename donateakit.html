@@ -58,7 +58,7 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
              <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Help</span></p>
-            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Contributions</h1>
+            
           </div>
         </div>
       </div>
@@ -270,7 +270,7 @@
     		</div>
     		<div class="col-md-6 volunteer pl-md-5 ftco-animate">
     			<h3 class="mb-3">Be a volunteer</h3>
-    			<form name="volunteer-basic" class="volunter-form" method="POST" data-netlify="true">
+    			<form name="donate-details" class="volunter-form" method="POST" data-netlify="true">
  <div class="form-group">
   <p>
     <label><textarea  id="" cols="30" rows="1" type="text" class="form-control" name="name"  placeholder="Your Name:" ></textarea></label>   
@@ -281,19 +281,13 @@
     <label><textarea  id="" cols="30" rows="1" type="email"class="form-control" name="email"  placeholder="Your Email"></textarea></label>
 </p>
 </div>
-<div class="form-group">                     
+<div class="form-group">                    
 <p>
-    <label> <input list="Departments" name="Departments" multiple class="form-control" name="Department"  placeholder="Department:" size="30">
-    <datalist id="Departments" >
-      <option >Marketing & Social Media</option>
-      <option >Reports &  Blogs</option>
-      <option >Finance & Equipment Control</option>
-      <option >Tech@Caritas</option>
-      <option >Dezyne@Caritas</option>
-      <option >Outreach</option>
-    </datalist></label>
-  </p>
-</div> 
+    <label><textarea  id="" cols="30" rows="1" type="text"class="form-control" name="number"  placeholder="Your Phone Number:"></textarea></label>
+</p>
+</div>
+				
+
 <div class="form-group">                   
   <p>
     <label><textarea  id="" cols="30" rows="2" type="text" class="form-control" name="Experience" placeholder="Please state any experience in the selected departments: "></textarea></label>
@@ -301,13 +295,14 @@
 </div>
 <div class="form-group">                    
 <p>
-    <label><textarea  id="" cols="30" rows="4" type="text" class="form-control" name="Values" placeholder="Apart from the fields displayed above what other values do you think you can add to the organization:"></textarea></label>
+    <label><textarea  id="" cols="30" rows="4" type="text" class="form-control" name="Values" placeholder="What is your perception of Caritas?:"></textarea></label>
 </p> 
 </div> 
 <div class="form-group">                    
 <p>
-    <label><textarea  id="" cols="30" rows="1" type="text" class="form-control" name="Why" placeholder="Why do you want to join Caritas?:"></textarea></label>
-  </p>                      
+    <label><textarea  id="" cols="30" rows="4" type="text" class="form-control" name="Values"  readonly>Checked!, We'll reply soon</textarea></label>
+</p> 
+</div>    
   <div class="form-group">
               <input type="submit" value="Send Message" class="btn btn-white py-3 px-5">
             </div>
